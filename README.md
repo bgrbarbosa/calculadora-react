@@ -1,33 +1,56 @@
-<h1 align="center">
-  Calculadora Com React
-</h1>
+Calculadora em React
+Projeto desenvolvido como parte do curso de React na Digital Innovation One (DIO). Uma calculadora simples criada para praticar conceitos fundamentais do React.
 
-<p align="center">
-  <a href="https://brunoh-calculadora.vercel.app/">🔗 Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">🖥️ Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-tecnologias">🚀 Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-license">📝 License</a>
-</p>
+Tecnologias Utilizadas
+Plataforma: React.js (biblioteca JavaScript para construção de interfaces)
 
-<p align="center">
-    <a href="https://wakatime.com/badge/user/68660678-6b86-4b78-98df-f5f41a37e1bc/project/a8d359d8-084b-4a1c-971b-c357d88d0685"><img src="https://wakatime.com/badge/user/68660678-6b86-4b78-98df-f5f41a37e1bc/project/a8d359d8-084b-4a1c-971b-c357d88d0685.svg" alt="wakatime"></a>
-</p>
+Estilização: CSS-in-JS (Styled Components) - Padrão arquitetural que permite escrever CSS diretamente no JavaScript
 
-![Preview](./assets/preview.jpg)
+Como Executar o Projeto
+Siga estas instruções para clonar, executar e construir o projeto:
 
-## 💻 Projeto
+Pré-requisitos
+Node.js (v14 ou superior)
 
-Repositório do projeto "Criando Uma Calculadora Com React" da DIO.
+npm ou yarn
 
-## 🚀 Tecnologias
+Instalação
+Clone o repositório:
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+bash
+Copy
+git clone https://github.com/seu-usuario/calculadora-react.git
+Acesse a pasta do projeto:
 
-- React
-- JavaScript
+bash
+Copy
+cd calculadora-react
+Instale as dependências:
 
-## 📝 License
+bash
+Copy
+npm install
+# ou
+yarn install
+Executando a Aplicação
+Para iniciar o servidor de desenvolvimento:
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+bash
+Copy
+npm start
+# ou
+yarn start
+A aplicação estará disponível em: http://localhost:3000
 
----
+Construindo para Produção
+Para gerar uma versão otimizada para produção:
+
+bash
+Copy
+npm run build
+# ou
+yarn build
+Os arquivos de produção serão gerados na pasta build/, prontos para serem implantados em qualquer servidor web estático ou serviço de hospedagem como Vercel, Netlify ou GitHub Pages.
+
+Licença
+Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para mais detalhes.
